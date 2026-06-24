@@ -1,0 +1,50 @@
+{
+  "title": "API 密鑰",
+  "description": "理諸模組所需之API密鑰。",
+  "lockedMessage": "API密鑰配置模組已鎖",
+  "passwordRequired": "需密碼以解密API密鑰",
+  "missing": {
+    "title": "缺API密鑰",
+    "description": "缺失若干API密鑰。請至API密鑰配置模組設置之。",
+    "requiredKeysAre": "缺失之必備API密鑰："
+  },
+  "modals": {
+    "apiKey": {
+      "create": "建API密鑰",
+      "update": "更API密鑰"
+    },
+    "modulesRequired": {
+      "title": "所需模組",
+      "totalModulesRequire": "共{{count}}模組需此API密鑰。",
+      "required": "必需",
+      "optional": "可選"
+    }
+  },
+  "buttons": {
+    "configApiKeys": "設API密鑰"
+  },
+  "inputs": {
+    "keyName": "密鑰名",
+    "keyDescription": "密鑰之述",
+    "keyIcon": "密鑰圖示",
+    "apiKey": "API密鑰",
+    "keyId": "密鑰ID",
+    "isExposable": "可暴露",
+    "overrideKey": "覆蓋密鑰"
+  },
+  "items": {
+    "apiKey": "API密鑰"
+  },
+  "empty": {
+    "apiKeys": {
+      "title": "無API密鑰",
+      "description": "未見API密鑰。點擊下方按鈕以建新API密鑰。"
+    }
+  },
+  "misc": {
+    "requiredBy": "所需模組：{{count}}個",
+    "lastUpdated": "末更：{{time}}",
+    "exposable": "可暴露",
+    "internalOnly": "僅內部"
+  }
+}

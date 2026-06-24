@@ -1,0 +1,29 @@
+{
+  "title": "備份",
+  "description": "理資料庫之備份。",
+  "items": {
+    "backup": "備份"
+  },
+  "empty": {
+    "noBackups": {
+      "title": "未見備份",
+      "description": "尚無可用之備份。請以上方按鈕建之。"
+    },
+    "toBeImplemented": {
+      "title": "待復原",
+      "description": "備份復原之功將不日重歸。"
+    }
+  },
+  "modals": {
+    "createBackup": "建新備份"
+  },
+  "inputs": {
+    "backupName": {
+      "label": "備份之名（須以.zip為尾）",
+      "placeholder": "輸入備份之名（留空則自生）"
+    }
+  },
+  "buttons": {
+    "startBackup": "啟備份"
+  }
+}

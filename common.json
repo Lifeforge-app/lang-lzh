@@ -1,0 +1,448 @@
+{
+  "buttons": {
+    "create": "建",
+    "update": "更",
+    "edit": "修",
+    "rename": "更名",
+    "select": "擇",
+    "cancel": "罷",
+    "delete": "刪",
+    "save": "存",
+    "copy": "抄",
+    "copied": "已抄",
+    "previous": "前",
+    "next": "後",
+    "print": "印",
+    "remove": "除",
+    "upload": "上載",
+    "import": "導入",
+    "submit": "呈",
+    "new": "新{{item}}",
+    "proceed": "進",
+    "applyFilters": "施篩",
+    "retry": "復試",
+    "refresh": "新",
+    "pin": "釘",
+    "unpin": "解釘",
+    "search": "尋",
+    "favourite": "好",
+    "unfavourite": "罷好",
+    "archive": "歸檔",
+    "unarchive": "解檔",
+    "download": "下載",
+    "stop": "止",
+    "record": "錄",
+    "overwrite": "覆寫",
+    "adjust": "調",
+    "downloading": "下載中...",
+    "generate": "生",
+    "regenerate": "復生",
+    "confirm": "確",
+    "goBack": "歸"
+  },
+  "modals": {
+    "deleteConfirmation": {
+      "title": "確欲刪{{itemName}}乎？",
+      "desc": "此將刪除{{itemName}}及其所有相關內容。此操作不可逆！",
+      "inputs": {
+        "confirmation": {
+          "placeholder": "請輸入\"{{text}}\"以確認刪除",
+          "label": "確認刪除"
+        }
+      },
+      "error": "刪除項時有誤。請復試。"
+    },
+    "searchFilters": "尋篩",
+    "iconPicker": {
+      "title": "擇圖示",
+      "items": {
+        "icon": "圖示",
+        "iconSet": "圖示集"
+      },
+      "empty": {
+        "icon": {
+          "title": "無圖示",
+          "description": "未見圖示，請試他詞。"
+        }
+      }
+    },
+    "imagePicker": {
+      "title": "擇檔",
+      "local": "上載本地畫",
+      "url": "畫URL",
+      "pixabay": "自Pixabay下載",
+      "orPasteLink": "或粘貼畫鏈",
+      "inputs": {
+        "imageLink": "畫鏈",
+        "imageType": "畫之類",
+        "imageCategory": "畫之屬",
+        "imageColor": "畫之色",
+        "editorsChoice": "編輯之選",
+        "prompt": "AI提示文"
+      },
+      "imageType": {
+        "all": "皆",
+        "photo": "像",
+        "vector": "矢量",
+        "illustration": "繪"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "無果",
+          "description": "未見畫，請試他詞。"
+        },
+        "pixabay": {
+          "title": "由Pixabay供",
+          "description": "可尋千百萬高質免費之畫。"
+        },
+        "noAPIKey": {
+          "title": "Pixabay API密鑰未設",
+          "description": "請於API密鑰庫設Pixabay API密鑰以用此功能。"
+        },
+        "noOpenAIKey": {
+          "title": "OpenAI API密鑰未設",
+          "description": "請於API密鑰庫設OpenAI API密鑰以用此功能。"
+        }
+      },
+      "ai": "AI畫之生"
+    },
+    "colorPicker": {
+      "title": "擇色",
+      "modals": {
+        "morandiColorPalette": "莫蘭迪色盤",
+        "tailwindCssColorPalette": "Tailwind CSS色盤",
+        "flatUiColors": "Flat UI色"
+      },
+      "buttons": {
+        "morandiColorPalette": "莫蘭迪色盤",
+        "tailwindCssColorPalette": "Tailwind CSS色盤",
+        "flatUiColors": "Flat UI色"
+      }
+    },
+    "imagePreview": "畫之覽",
+    "qrCodeScanner": "QR碼之掃",
+    "viewImage": "覽畫"
+  },
+  "misc": {
+    "search": "尋{{item}}...",
+    "notFound": {
+      "title": "噫！此處無物",
+      "description": "所尋之頁未得。請查URL而復試。"
+    },
+    "tipsAndTricks": "竅門",
+    "loadingModule": "載入模組中...",
+    "deprecated": "不復持",
+    "imageUpload": {
+      "local": "上載本地畫",
+      "url": "畫URL",
+      "pixabay": "自Pixabay下載",
+      "orPasteLink": "或粘貼畫鏈",
+      "inputs": {
+        "imageLink": "畫鏈",
+        "imageType": "畫之類",
+        "imageCategory": "畫之屬",
+        "imageColor": "畫之色",
+        "editorsChoice": "編輯之選"
+      },
+      "imageType": {
+        "all": "皆",
+        "photo": "像",
+        "vector": "矢量",
+        "illustration": "繪"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "無果",
+          "description": "未見畫。請試別詞。"
+        },
+        "pixabay": {
+          "title": "由Pixabay供",
+          "description": "可尋千百萬高質免費之畫。"
+        }
+      }
+    },
+    "dnd": {
+      "dropHere": "置項於此",
+      "dragAndDropToUpload": "拖拽或點擊以上載",
+      "or": "或",
+      "buttons": {
+        "pasteFromClipboard": "自剪貼板粘貼"
+      }
+    },
+    "buttons": {
+      "goBack": "歸",
+      "reportBug": "報錯"
+    },
+    "colorPicker": {
+      "title": "擇色",
+      "modals": {
+        "morandiColorPalette": "莫蘭迪色盤",
+        "tailwindCssColorPalette": "Tailwind CSS色盤"
+      },
+      "buttons": {
+        "morandiColorPalette": "莫蘭迪色盤",
+        "tailwindCssColorPalette": "Tailwind CSS色盤"
+      }
+    },
+    "empty": {
+      "apiStatus": {
+        "title": "未能連API",
+        "description": "請查網絡之連而復試。若為開發者，請查伺服器是否運行如常。"
+      }
+    },
+    "iconPicker": {
+      "items": {
+        "icon": "圖示",
+        "iconSet": "圖示集"
+      },
+      "empty": {
+        "icon": {
+          "title": "無圖示",
+          "description": "未見圖示。請試別詞。"
+        }
+      }
+    },
+    "locationDisabled": {
+      "description": "位置輸入當前已停。請加正確配置之Google Cloud API密鑰以啟此功能。詳見：",
+      "title": "未可用"
+    },
+    "dates": {
+      "months": {
+        "0": "正月",
+        "1": "二月",
+        "2": "三月",
+        "3": "四月",
+        "4": "五月",
+        "5": "六月",
+        "6": "七月",
+        "7": "八月",
+        "8": "九月",
+        "9": "十月",
+        "10": "十一月",
+        "11": "臘月"
+      },
+      "days": {
+        "0": "月曜日",
+        "1": "火曜日",
+        "2": "水曜日",
+        "3": "木曜日",
+        "4": "金曜日",
+        "5": "土曜日",
+        "6": "日曜日"
+      }
+    },
+    "fieldRequired": "此欄為必填。",
+    "invalidField": "無效欄位。",
+    "invalidColor": "無效之色。請輸入#RRGGBB式之有效十六進值。",
+    "invalidIcon": "無效之圖示。須為<icon-set>:<icon-name>式之有效Iconify圖示識別符。",
+    "loadingUserData": "載入用戶資料中...",
+    "invalidSelection": "無效之選。請擇列表中有效之選項。",
+    "fileInputSupportedFormat": "支持格式：{{format}}",
+    "alert": {
+      "note": "注",
+      "warning": "警",
+      "caution": "慎",
+      "tip": "竅",
+      "important": "要"
+    }
+  },
+  "sidebar": {
+    "buttons": {
+      "signOut": "登出",
+      "accountSettings": "帳戶之置"
+    },
+    "items": {
+      "module": "模組"
+    },
+    "empty": {
+      "modules": {
+        "title": "未見模組",
+        "description": "試調所尋模組之條件。"
+      }
+    }
+  },
+  "fetch": {
+    "error": "自伺服器取數據敗",
+    "success": "善哉！已{{action}}項！",
+    "failure": "嗚呼... {{action}}項敗。請復試。",
+    "action": {
+      "create": "建",
+      "update": "更",
+      "delete": "刪",
+      "rename": "更名",
+      "pin": "釘",
+      "unpin": "解釘",
+      "archive": "歸檔",
+      "unarchive": "解檔",
+      "remove": "除",
+      "add": "增",
+      "save": "存",
+      "public": "公開",
+      "private": "私藏",
+      "replace": "替",
+      "clearMedium": "清",
+      "thumbnail": "更縮圖",
+      "generate": "生",
+      "cleanedup": "理",
+      "summarized": "撮",
+      "unlock": "解鎖",
+      "download": "下載",
+      "NASFilesReady": " 檔已備妥待下載。請至NAS取之。",
+      "addedToFavourites": "加至好",
+      "removedFromFavourites": "自好移除"
+    },
+    "redirected": "已重導",
+    "redirecting": "重導中...",
+    "unlock": "解鎖"
+  },
+  "auth": {
+    "header": "歡迎歸來",
+    "desc": "登入以續記汝之人生旅程。",
+    "welcome": {
+      "header": "歡迎！",
+      "desc": "創汝之帳，始鑄更美之人生。"
+    },
+    "sideImageDesc": {
+      "part1": "終有一日汝將離此世",
+      "part2": "故當活一難忘之生"
+    },
+    "or": "或",
+    "buttons": {
+      "signIn": "登入",
+      "proceed": "進"
+    },
+    "inputs": {
+      "emailOrUsername": {
+        "label": "郵驛或用戶名",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "email": {
+        "label": "郵驛",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "username": {
+        "label": "用戶名",
+        "placeholder": "johndoe"
+      },
+      "name": {
+        "label": "顯示名",
+        "placeholder": "John Doe"
+      },
+      "password": {
+        "label": "密碼",
+        "placeholder": "輸入汝之密碼"
+      },
+      "confirmPassword": {
+        "label": "確認密碼",
+        "placeholder": "復入汝之密碼"
+      }
+    },
+    "validation": {
+      "emailRequired": "郵驛為必填",
+      "emailInvalid": "請輸入有效之郵驛",
+      "usernameRequired": "用戶名為必填",
+      "usernameTooShort": "用戶名須至少三字",
+      "usernameInvalid": "用戶名僅可用英數及下劃線",
+      "nameRequired": "名為必填",
+      "passwordRequired": "密碼為必填",
+      "passwordTooShort": "密碼須至少八字",
+      "passwordMismatch": "密碼不匹"
+    },
+    "modals": {
+      "twoFA": {
+        "title": "雙重驗證",
+        "description": "請輸入汝先前註冊之驗證應用所供之一時密碼。",
+        "buttons": {
+          "useEmailOtp": "用郵驛OTP",
+          "useAuthApp": "用驗證應用"
+        },
+        "emailDescription": "請輸入與汝帳關聯之郵驛。",
+        "inputs": {
+          "email": "郵驛"
+        }
+      }
+    },
+    "orAuthenticateWith": "或以他法驗證",
+    "messages": {
+      "otpSent": "一組一時密碼已發至汝之郵驛，若該郵驛與任何帳戶相關聯。",
+      "welcomeBack": "歡迎歸來，{{name}}！",
+      "userCreated": "帳戶已建！歡迎蒞臨LifeForge。",
+      "invalidCredentials": "無效之郵驛或密碼。請復試。",
+      "invalidFields": "無效欄位。請填入有效之郵驛及密碼。",
+      "quotaExceeded": "已達試次上限。請稍後復試。",
+      "unknownError": "未知之誤。請稍後復試。",
+      "invalidLoginAttempt": "無效之登入嘗試。請復試。"
+    },
+    "qrLogin": {
+      "title": "掃以登入",
+      "description": "以他裝置登入汝之帳戶。",
+      "expired": "QR碼已過期",
+      "clickToRefresh": "點擊以新",
+      "approved": "登入已准！重導中...",
+      "waiting": "待准...",
+      "approvalTitle": "准登入",
+      "approvalDescription": "有一裝置請求登入汝之帳戶",
+      "browserInfo": "裝置資訊",
+      "approve": "准登入",
+      "deny": "拒",
+      "success": "登入已准",
+      "scanQRCode": "掃QR碼以登入",
+      "invalidQR": "無效之QR碼",
+      "sessionNotFound": "會話未見或已過期",
+      "alreadyApproved": "會話已准"
+    }
+  },
+  "vault": {
+    "vault": {
+      "lockedMessage": "汝之庫已鎖",
+      "passwordRequired": "需主密碼以解密汝之庫。",
+      "unlocked": "庫已解鎖",
+      "failedToUnlock": "解鎖敗",
+      "buttons": {
+        "unlock": "解鎖",
+        "recoverAccount": "復帳"
+      },
+      "createPassword": {
+        "title": "設主密碼",
+        "desc": "請設主密碼以護汝之庫。"
+      },
+      "inputs": {
+        "newPassword": "新密碼",
+        "confirmPassword": "確認密碼",
+        "masterPassword": "主密碼"
+      },
+      "confirmSetNewPassword": {
+        "title": "務記汝之主密碼！",
+        "desc": "此主密碼（暫）不可改！若忘之，則盡失所有。此密碼經哈希而存於汝之用戶資料中，不可解密。將用於加解密汝存於庫中之數據。"
+      }
+    },
+    "otp": {
+      "buttons": {
+        "request": "請OTP",
+        "resend": "重發OTP",
+        "verify": "驗OTP",
+        "authByQR": "以QR碼驗"
+      },
+      "messages": {
+        "success": "OTP已發！請查郵驛。",
+        "failed": "請OTP敗",
+        "invalid": "OTP須為六位數字",
+        "cooldown": "請求過頻，請稍後復試",
+        "required": {
+          "title": "需OTP以解鎖",
+          "desc": "為增安全，此模組需OTP以解鎖。請點下方按鈕以請OTP。"
+        },
+        "verify": {
+          "success": "OTP驗成",
+          "failed": "OTP驗敗"
+        }
+      }
+    }
+  }
+}

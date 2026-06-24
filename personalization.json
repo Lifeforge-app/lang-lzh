@@ -1,0 +1,159 @@
+{
+  "title": "個性化",
+  "description": "為汝而造！誰欲用無趣之系統？",
+  "themeSelector": {
+    "title": "主題",
+    "desc": "擇合汝品味之主題。",
+    "theme": {
+      "system": "隨系統",
+      "light": "明",
+      "dark": "暗"
+    },
+    "customBgColor": "自訂背景色"
+  },
+  "themeColorSelector": {
+    "title": "主題色",
+    "desc": "擇最合汝介面之色。",
+    "colors": {
+      "red": "赤",
+      "pink": "粉",
+      "purple": "紫",
+      "deepPurple": "深紫",
+      "indigo": "靛",
+      "blue": "藍",
+      "lightBlue": "淺藍",
+      "cyan": "青",
+      "teal": "碧",
+      "green": "綠",
+      "lightGreen": "淺綠",
+      "lime": "黃綠",
+      "yellow": "黃",
+      "amber": "琥珀",
+      "orange": "橙",
+      "deepOrange": "深橙",
+      "brown": "褐",
+      "grey": "灰",
+      "custom": "自訂色"
+    }
+  },
+  "languageSelector": {
+    "title": "語文",
+    "desc": "擇汝所好之語文。"
+  },
+  "bgTempSelector": {
+    "title": "背景色溫",
+    "desc": "擇合汝心緒之背景色溫。",
+    "cool": "冷",
+    "warm": "暖",
+    "customBgTemp": "自訂"
+  },
+  "fontFamily": {
+    "title": "字體",
+    "desc": "擇合汝好之字體。",
+    "tooltip": "詳見Google Fonts網站以覽所有字體之資訊。",
+    "tooltipTitle": "由Google Fonts提供",
+    "tabs": {
+      "googleFonts": "Google Fonts",
+      "customFonts": "自訂字體"
+    },
+    "empty": {
+      "apiKey": {
+        "title": "未見Google Cloud API密鑰",
+        "description": "欲用此功能，請加Google Cloud API密鑰至API庫。"
+      },
+      "search": {
+        "title": "未見字體族",
+        "description": "未見合條件之字體族。請另試他詞。"
+      },
+      "customFont": {
+        "title": "無自訂字體",
+        "description": "汝尚未上傳任何自訂字體。點擊上方按鈕以上傳。"
+      }
+    },
+    "inputs": {
+      "displayName": "顯示名",
+      "fontFamily": "字體族",
+      "fontWeight": "字重",
+      "fontFile": "字體檔"
+    },
+    "modals": {
+      "fontFamilySelector": "字體族選擇器",
+      "customFonts": {
+        "upload": "上傳自訂字體",
+        "edit": "修自訂字體",
+        "delete": {
+          "title": "刪自訂字體",
+          "description": "確欲刪此自訂字體乎？此操作不可逆。"
+        }
+      }
+    },
+    "buttons": {
+      "uploadButton": "上傳自訂字體"
+    },
+    "items": {
+      "fontFamily": "字體族"
+    }
+  },
+  "fontScaleSelector": {
+    "title": "字級",
+    "desc": "擇合所選字體族之字級。"
+  },
+  "borderRadiusSelector": {
+    "title": "邊框圓角",
+    "desc": "調整個介面之圓角。",
+    "options": {
+      "none": "無",
+      "small": "小",
+      "default": "默認",
+      "medium": "中",
+      "large": "大",
+      "full": "全"
+    }
+  },
+  "borderedSelector": {
+    "title": "邊框組件",
+    "desc": "啟UI組件之可見邊框。"
+  },
+  "bgImageSelector": {
+    "title": "背景畫",
+    "desc": "上傳或尋背景畫。",
+    "pixabayDisabled": {
+      "tooltip": "欲自Pixabay尋圖，請將Pixabay API密鑰加入API庫。詳見："
+    },
+    "modals": {
+      "adjustBackground": {
+        "title": "調背景畫",
+        "modals": {
+          "adjustBackgroundImage": "調背景畫"
+        },
+        "columns": {
+          "blur": {
+            "title": "模糊之效",
+            "desc": "調背景畫之模糊度。"
+          },
+          "brightness": {
+            "title": "明度",
+            "desc": "調背景畫之明度。"
+          },
+          "contrast": {
+            "title": "對比度",
+            "desc": "調背景畫之對比度。"
+          },
+          "saturation": {
+            "title": "飽和度",
+            "desc": "調背景畫色彩之濃淡。"
+          },
+          "overlayOpacity": {
+            "title": "覆層不透明度",
+            "desc": "調背景覆層之透明度。"
+          }
+        }
+      }
+    }
+  },
+  "inputs": {
+    "colorHex": "色Hex值"
+  },
+  "notApplicable": "不適用",
+  "unsupportedModulesWarning": "以下有司不助選言："
+}

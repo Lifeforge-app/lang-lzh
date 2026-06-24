@@ -1,0 +1,30 @@
+{
+  "title": "儀表",
+  "description": "汝之使命控制中心，令諸事皆趣。",
+  "widgets": {},
+  "modals": {
+    "manageWidgets": "理部件"
+  },
+  "buttons": {
+    "manageCategories": "理類別",
+    "unlockLayout": "解布局之鎖",
+    "manageWidgets": "理部件",
+    "lockLayout": "鎖布局"
+  },
+  "empty": {
+    "welcome": {
+      "title": "歡迎蒞臨LifeForge！",
+      "description": "自Forgistry裝模組以始。"
+    },
+    "notFound": {
+      "title": "未見部件",
+      "description": "所尋之部件不存。請查已裝模組。"
+    }
+  },
+  "messages": {
+    "editingLayout": "汝正修儀表布局",
+    "editingLayoutHint": "拖拽部件以調其位，或拖拽右下角之小三角以調其大小"
+  },
+  "loading": "載入儀表中...",
+  "test": ""
+}

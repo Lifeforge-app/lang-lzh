@@ -1,0 +1,82 @@
+{
+  "title": "帳戶之置",
+  "description": "治汝帳戶細項之所。",
+  "settings": {
+    "title": {
+      "profilePicture": "頭像",
+      "username": "用戶名",
+      "displayName": "顯示名",
+      "email": "電子郵驛",
+      "password": "密碼",
+      "dateOfBirth": "生辰",
+      "twoFA": "雙重驗證"
+    },
+    "desc": {
+      "profilePicture": "上傳頭像以飾汝帳。",
+      "username": "平台之上別汝之名也。",
+      "displayName": "示於他者之名也。",
+      "email": "登入帳戶所用之郵驛。",
+      "password": "設強密碼以護汝帳。",
+      "dateOfBirth": "錄汝生辰，或有驚喜！",
+      "twoFA": "啟登入系統時之雙重驗證。"
+    },
+    "empty": "未設"
+  },
+  "modals": {
+    "username": {
+      "update": "更用戶名"
+    },
+    "email": {
+      "update": "更郵驛"
+    },
+    "displayName": {
+      "update": "更顯示名"
+    },
+    "dateOfBirth": {
+      "update": "更生辰"
+    },
+    "enable2FA": {
+      "title": "啟雙重驗證",
+      "description": "請以所好之驗證應用（如Google Authenticator）掃描以下QR碼，然後繼續。",
+      "confirmationDescription": "請輸入驗證應用所顯之OTP以確認啟用雙重驗證。"
+    },
+    "disable2FA": {
+      "title": "停雙重驗證",
+      "description": "確欲停用雙重驗證乎？"
+    },
+    "changePassword": {
+      "title": "改密碼"
+    }
+  },
+  "buttons": {
+    "changePassword": "改密碼"
+  },
+  "inputs": {
+    "dateOfBirth": "生辰",
+    "username": "用戶名",
+    "email": "電子郵驛",
+    "displayName": "顯示名",
+    "currentPassword": {
+      "label": "今之密碼",
+      "placeholder": "輸入今之密碼"
+    },
+    "newPassword": {
+      "label": "新密碼",
+      "placeholder": "輸入新密碼"
+    },
+    "confirmPassword": {
+      "label": "確認新密碼",
+      "placeholder": "復入新密碼"
+    }
+  },
+  "messages": {
+    "twoFA": {
+      "enableSuccess": "雙重驗證已啟用。",
+      "disableSuccess": "雙重驗證已停用。"
+    }
+  },
+  "misc": {
+    "enabled": "已啟",
+    "disabled": "已停"
+  }
+}

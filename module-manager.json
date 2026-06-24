@@ -1,0 +1,82 @@
+{
+  "title": "模組總管",
+  "description": "以UI為基之LifeForge模組總管",
+  "category": "類別",
+  "subsections": {
+    "modules": "模組",
+    "categories": "類別"
+  },
+  "buttons": {
+    "uninstall": "卸載",
+    "addTranslation": "增譯文",
+    "addCategory": "增類別",
+    "add category": "增類別"
+  },
+  "subsectionTitleAndDesc": {
+    "modules": {
+      "title": "模組",
+      "description": "裝、更、除LifeForge實例之模組"
+    },
+    "categories": {
+      "title": "類別",
+      "description": "理並重排側欄類別以自訂導覽"
+    }
+  },
+  "items": {
+    "category": "類別"
+  },
+  "inputs": {
+    "categoryKey": "類別鍵",
+    "translationKey": "譯文鍵"
+  },
+  "empty": {
+    "category": {
+      "title": "未見類別",
+      "description": "建一類別以始"
+    },
+    "modules": {
+      "title": "未裝模組",
+      "description": "自登錄裝模組以擴LifeForge"
+    }
+  },
+  "modals": {
+    "category": {
+      "create": "建類別",
+      "update": "更類別"
+    },
+    "uninstall": {
+      "title": "卸載{{module}}乎？",
+      "description": "此模組將自系統移除，然汝之數據得以保留。隨時可自登錄重裝之。"
+    },
+    "devMode": {
+      "enable": {
+        "title": "啟開發之態",
+        "description": "啟開發之態，則此模組直自源代碼載入，而非預製包。模組代碼之變更無須重編即可即時熱重載。\n\n當積極開發或自訂此模組時用之。"
+      },
+      "disable": {
+        "title": "停開發之態",
+        "description": "停開發之態則回復自預製包載入。請確已重編模組以納最新變更。"
+      }
+    },
+    "translationKey": {
+      "create": "建譯文鍵",
+      "update": "更譯文鍵"
+    }
+  },
+  "devMode": {
+    "label": "開發之態",
+    "enable": "啟開發之態",
+    "disable": "停開發之態",
+    "enabled": "{{module}}今處開發之態",
+    "disabled": "{{module}}已非開發之態"
+  },
+  "notBuilt": {
+    "label": "未編譯"
+  },
+  "misc": {
+    "translations": "譯文"
+  },
+  "messages": {
+    "categoriesMissingTranslations": "{{count}}類別缺譯文："
+  }
+}
