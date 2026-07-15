@@ -9,7 +9,8 @@
       "email": "電子郵驛",
       "password": "密碼",
       "dateOfBirth": "生辰",
-      "twoFA": "雙重驗證"
+      "twoFA": "雙重驗證",
+      "oauth": "OAuth供應商"
     },
     "desc": {
       "profilePicture": "上傳頭像以飾汝帳。",
@@ -18,11 +19,13 @@
       "email": "登入帳戶所用之郵驛。",
       "password": "設強密碼以護汝帳。",
       "dateOfBirth": "錄汝生辰，或有驚喜！",
-      "twoFA": "啟登入系統時之雙重驗證。"
+      "twoFA": "啟登入系統時之雙重驗證。",
+      "oauth": "配置OAuth提供商以啟用第三方登入。"
     },
     "empty": "未設"
   },
   "modals": {
+    "oauthConfig": "OAuth供應商配置",
     "username": {
       "update": "更用戶名"
     },
@@ -46,10 +49,15 @@
     },
     "changePassword": {
       "title": "改密碼"
+    },
+    "oauthProvider": {
+      "create": "加OAuth提供商",
+      "update": "更新OAuth提供商"
     }
   },
   "buttons": {
-    "changePassword": "改密碼"
+    "changePassword": "改密碼",
+    "configure": "配置"
   },
   "inputs": {
     "dateOfBirth": "生辰",
@@ -67,16 +75,31 @@
     "confirmPassword": {
       "label": "確認新密碼",
       "placeholder": "復入新密碼"
+    },
+    "oauthProvider": {
+      "provider": "提供商",
+      "clientId": "客戶端ID",
+      "clientSecret": "客戶端密鑰"
     }
   },
   "messages": {
     "twoFA": {
       "enableSuccess": "雙重驗證已啟用。",
       "disableSuccess": "雙重驗證已停用。"
+    },
+    "oauth": {
+      "changeConfirm": "確欲更OAuth憑證乎？",
+      "changeAlert": "更新客戶端ID及密鑰將取代現有者。此操作不可逆。"
     }
   },
   "misc": {
     "enabled": "已啟",
-    "disabled": "已停"
+    "disabled": "已停",
+    "oauthStatus": "{{confCount}}已配，{{enabledCount}}已啟",
+    "lastUpdated": "最後更新："
+  },
+  "tabs": {
+    "personalInformation": "個人資料",
+    "accountAndSecurity": "帳戶與安全"
   }
 }
